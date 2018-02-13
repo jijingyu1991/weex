@@ -180,9 +180,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }), _c('text', {
     staticClass: ["greeting"]
-  }, [_vm._v("The environment is ready!")]), _c('text', {
+  }, [_vm._v("The environment is readyss!")]), _c('text', {
     staticClass: ["message"]
-  }, [_vm._v("Now, let's use Vue.js to build your Weex app.")])])
+  }, [_vm._v("Now, let's use Vue.js to build your Weex apps.")])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 

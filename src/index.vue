@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
     <image :src="logo" class="logo"></image>
-    <text class="greeting">The environment is ready!</text>
-    <text class="message">Now, let's use Vue.js to build your Weex app.</text>
+    <text class="greeting">The environment is readyss!</text>
+    <text class="message">Now, let's use Vue.js to build your Weex apps.</text>
   </div>
 </template>
 

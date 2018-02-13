@@ -20915,11 +20915,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "greeting",
     staticStyle: _vm.$processStyle(undefined),
     style: (_vm.$processStyle(undefined))
-  }, [_vm._v("The environment is ready!")]), _vm._v(" "), _c('text', {
+  }, [_vm._v("The environment is readyss!")]), _vm._v(" "), _c('text', {
     staticClass: "message",
     staticStyle: _vm.$processStyle(undefined),
     style: (_vm.$processStyle(undefined))
-  }, [_vm._v("Now, let's use Vue.js to build your Weex app.")])])
+  }, [_vm._v("Now, let's use Vue.js to build your Weex apps.")])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {

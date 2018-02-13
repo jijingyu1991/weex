@@ -92,10 +92,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/tingtingguan/study/hello_weex/src/index.vue"
+__vue_options__.__file = "/Users/tingtingguan/study/weex/src/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-910a98c8"
+__vue_options__._scopeId = "data-v-25040ce2"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -180,9 +180,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }), _c('text', {
     staticClass: ["greeting"]
-  }, [_vm._v("The environment is ready!")]), _c('text', {
+  }, [_vm._v("The environment is readys!")]), _c('text', {
     staticClass: ["message"]
-  }, [_vm._v("Now, let's use Vue.js to build your Weex app.")])])
+  }, [_vm._v("Now, let's use Vue.js to build your Weex apps.")])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
