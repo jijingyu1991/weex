@@ -62,90 +62,31 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = []
-
-/* styles */
-__vue_styles__.push(__webpack_require__(1)
-)
-
-/* script */
-__vue_exports__ = __webpack_require__(2)
-
-/* template */
-var __vue_template__ = __webpack_require__(3)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/tingtingguan/study/weex/src/index.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-25040ce2"
-__vue_options__.style = __vue_options__.style || {}
-__vue_styles__.forEach(function (module) {
-  for (var name in module) {
-    __vue_options__.style[name] = module[name]
-  }
-})
-if (typeof __register_static_styles__ === "function") {
-  __register_static_styles__(__vue_options__._scopeId, __vue_styles__)
-}
-
-module.exports = __vue_exports__
-module.exports.el = 'true'
-new Vue(module.exports)
-
-
-/***/ }),
-/* 1 */
 /***/ (function(module, exports) {
 
 module.exports = {
-  "logo": {
-    "width": "424",
-    "height": "200"
-  },
-  "greeting": {
-    "fontSize": "50",
-    "color": "#41B883"
-  },
-  "message": {
-    "marginTop": "30",
-    "marginRight": "30",
-    "marginBottom": "30",
-    "marginLeft": "30",
-    "fontSize": "32",
-    "color": "#727272"
-  },
-  "textInput": {
-    "height": "80",
+  "topeHeader": {
+    "backgroundColor": "#000000",
     "paddingTop": "10",
     "paddingRight": "10",
     "paddingBottom": "10",
-    "paddingLeft": "10",
-    "fontSize": "32",
-    "width": "750",
-    "borderBottomWidth": "1"
+    "paddingLeft": "10"
+  },
+  "top_txt": {
+    "color": "#ffffff",
+    "fontSize": "46",
+    "textAlign": "center",
+    "lines": 1
   }
 }
 
 /***/ }),
-/* 2 */
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -154,19 +95,6 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
-var _topHeader = __webpack_require__(4);
-
-var _topHeader2 = _interopRequireDefault(_topHeader);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var modal = weex.requireModule('modal'); //
-//
-//
-//
-//
-//
 //
 //
 //
@@ -174,67 +102,44 @@ var modal = weex.requireModule('modal'); //
 //
 //
 
-exports.default = {
-  components: {
-    topHeader: _topHeader2.default
-  },
-  created: function created() {
-    modal.toast({
-      message: '页面初始化成功',
-      duration: 3
-    });
-  },
-  data: function data() {
-    return {
-      logo: 'https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png'
-    };
-  }
-};
+exports.default = {};
 
 /***/ }),
-/* 3 */
+/* 2 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["wrapper"]
-  }, [_c('top-header'), _vm._m(0), _c('image', {
-    staticClass: ["logo"],
-    attrs: {
-      "src": _vm.logo
-    }
-  }), _c('text', {
-    staticClass: ["greeting"]
-  }, [_vm._v("The environment is ready!")]), _c('text', {
-    staticClass: ["message"]
-  }, [_vm._v("Now, let's use Vue.js to build your Weex apps.")])], 1)
+  return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('input', {
-    staticClass: ["textInput"],
-    attrs: {
-      "type": "text",
-      "placeholder": "请输入"
-    }
-  })])
+  return _c('div', {
+    staticClass: ["topeHeader"]
+  }, [_c('text', {
+    staticClass: ["top_txt"]
+  }, [_vm._v("gtt")])])
 }]}
 module.exports.render._withStripped = true
 
 /***/ }),
-/* 4 */
+/* 3 */,
+/* 4 */,
+/* 5 */,
+/* 6 */,
+/* 7 */,
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(5)
+__vue_styles__.push(__webpack_require__(0)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(6)
+__vue_exports__ = __webpack_require__(1)
 
 /* template */
-var __vue_template__ = __webpack_require__(7)
+var __vue_template__ = __webpack_require__(2)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -261,61 +166,9 @@ if (typeof __register_static_styles__ === "function") {
 }
 
 module.exports = __vue_exports__
+module.exports.el = 'true'
+new Vue(module.exports)
 
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports) {
-
-module.exports = {
-  "topeHeader": {
-    "backgroundColor": "#000000",
-    "paddingTop": "10",
-    "paddingRight": "10",
-    "paddingBottom": "10",
-    "paddingLeft": "10"
-  },
-  "top_txt": {
-    "color": "#ffffff",
-    "fontSize": "46",
-    "textAlign": "center",
-    "lines": 1
-  }
-}
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-
-exports.default = {};
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["topeHeader"]
-  }, [_c('text', {
-    staticClass: ["top_txt"]
-  }, [_vm._v("gtt")])])
-}]}
-module.exports.render._withStripped = true
 
 /***/ })
 /******/ ]);
